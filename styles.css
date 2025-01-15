@@ -1,0 +1,28 @@
+body {
+    scroll-behavior: smooth;
+    scroll-margin: 20px;
+}
+a[href]:hover{
+    background-color:#FF8630;
+}
+nav {
+    border-bottom: 1px solid black;
+}
+.menu ol{
+    list-style-type:none;
+    padding-left: 0;
+}
+.men{
+    display: inline-block;
+}
+.men a{
+    position: relative;
+    text-decoration: none;
+}
+
+.men a::after{
+    content:">";
+    padding: 0 5px;
+    color:black;
+    font-size:80%;
+}
